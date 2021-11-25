@@ -7,8 +7,6 @@ namespace Moment3
    public class Post : Object
     {
         //properties
-        public int Id { get; set; }
-
         public string Author { get; set; }
         public string Content { get; set; }
         public List<Post> GuestBook = new List<Post>();
